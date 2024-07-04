@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    h1,h4,h2,h5{
+        text-align: center;
+        font-weight: 700!important;
+    }
+    text-decoration: none!important;
+    p,h5{
+        text-align: justify;
+    }
+    a{
+        color: black!important;
+    }
+}
+.heropage{
+    background-image: url("Assets/heropage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.Diploma_heropage{
+    width: 100%;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.heropage h2{
+    color: rgb(211, 66, 26);
+    font-size: 1200;
+    font-weight: 900;
+}
+.heropage p{
+    color: white;
+    font-size: 300;
+}
+.heropage button{
+    color: white;
+    height: 50px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 500;
+    border: none;
+    margin-left: 40%;
+}
+.Btech_courses .card-img-top{
+    height: 300px;
+}
+.Btech_courses .card{
+    height: 490px;
+}
+.Btech_course2 .card-img-top{
+    height: 300px;
+}
+.Mtech_courses .card-img-top{
+    height: 200px;
+}
+.Mtech_courses .card{
+    height: 390px;
+}
+.Mtech_courses2 .card-img-top{
+    height: 250px;
+}
+.Mtech_courses2 .card{
+    height: 410px;
+}
+.Diploma_card .card{
+    height: 480px;
+}
+.nav-link{
+    color: white!important;
+    font-size: 20px!important;
+}
+.course h2{
+    font-size: 900;
+    font-weight: 700;
+}
+.course h3{
+    font-size: 900;
+    font-weight: 700;
+}
+.Recruiters img{
+    padding: 10px;
+    width: 150px;
+}
+.courses-list1 .card{
+    border-radius: 10px;
+    height: 32vh!important;
+    box-shadow: 0 0 10px 0 rgb(174, 181, 188);
+    margin-bottom: 30px;
+}
+.courses-list .card{
+    border-radius: 10px;
+    height: 39vh!important;
+    box-shadow: 0 0 10px 0 rgb(174, 181, 188);
+    margin-bottom: 30px;
+}
+
+.reviews img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.comment button{
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    border: none;
+}
+.card:hover{
+    box-shadow: 0 0 20px 0 rgb(174, 181, 188);
+}
+.navbar{
+    background-color: brown;
+    height: 60px;
+}
+.heropage1{
+    background-color: brown;
+}
+.heropage1 img{
+    width: 100px;
+    height: 50px;
+}
+.heropage img{
+    width: 100px;
+    height: 50px;
+}
+
+.Diploma_courses img{
+    height:45vh;
+}
+.fqs details{
+    background-color: gray;
+    font-size: 25px;
+    color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.comment_box input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+@media(min-width:1000px){
+    .heropage{
+        height: 100vh;
+    }
+}
+@media (min-width:700px) and (max-width:1009px)
+{
+    .heropage_content{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+@media (min-width:800px)
+{
+    .Apply{
+    margin-top: 200px;
+}
+}
+
+@media(max-width:600px){
+    .navbar-nav a{
+        margin-left: 20px;
+    }
+    .heropage{
+        height: 65vh;
+    }
+    .reviews .card{
+        margin-bottom: 15px;
+    }
+    .navbar{
+        height: 75px;
+    }
+    .courses-list .card{
+        margin: 10px!important;
+    }
+    .Why_choose img{
+        display: none;
+    }
+    .navbar{
+        background-color: brown;
+    }
+    .heropage_content h2{
+        font-size: 20px!important;
+        padding-top:25px;
+
+    }
+    .heropage_content p{
+        font-size: 10px!important;
+        padding:10px;
+    }
+    .nav-item{
+        background-color: brown;
+    }
+    .courses-list .card{
+        height: fit-content!important;
+    }
+    .courses-list1 .card{
+        height: fit-content!important;
+    }
+    .fqs details{
+        font-size: 12px;
+    }
+    .Recruiters img{
+        width: 80px;
+        padding: 10px;
+    }
+    .Facilities{
+        display: none;
+    }
+    .Diploma_courses .card{
+        padding: 10px;
+    }
+}
+.comment_box textarea{
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+.contact i{
+    margin-right: 20px;
+}
+
+@media (min-width:900px) and (max-width:1009px){
+    .courses-list1 .card{
+        height: 275px!important;
+    }
+    .courses-list .card{
+        height: 345px!important;
+    }
+    .Diploma_courses .card{
+        height: 490px;
+    }
+    .courses .card{
+        height: 450px;
+    }
+    .Mba_courses .card{
+        height: 320px;
+    }
+    .mtechcourse{
+        height: 370px;
+    }
+    .Btech_courses .card{
+        height: 510px;
+    }
+    .applynow a{
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 900px){
+    .heropage .heropage_content{
+        margin-top: 20vh;
+    }
+    .applynow a{
+        border-radius: 5px;
+    }
+}
+@media  (min-width:600px) and (max-width:1009px){
+    .Facilities img{
+        width: 290px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .reviews .card{
+        height: 340px!important;
+    }
+}
+@media (min-width:1100px){
+    .Apply{
+        margin-top: 200px;
+    }
+    .reviews .card{
+        height: 40vh!important;
+    }
+    .Facilities img{
+        width: 430px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 40px;
+    }
+    .heropage_content{
+        margin-top: 30vh;
+    }
+    
+    .heropage .heropage_content{
+        margin-top: 30vh;
+    }
+    .applynow a{
+        border-radius: 5px;
+    } 
+}
+@media (max-width:600px){
+    .Diploma_courses .card{
+        height: fit-content;
+        margin-bottom: 15px;
+    }
+    .Btech_courses .card{
+        height: fit-content;
+        margin-bottom: 15px;
+    }
+    .Btech_course2 .card{
+        height: fit-content;
+        margin-bottom: 15px;
+    }
+    .Mtech_courses{
+        height: fit-content;
+        margin-bottom: 15px;
+    }
+    .Mtech_courses2{
+        height: fit-content;
+        margin-bottom: 15px;
+    }
+    .Mba_courses{
+        height: fit-content;
+        margin-bottom: 15px;
+    }
+}

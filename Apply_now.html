@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav
+    class="navbar navbar-expand-sm heropage1"
+>
+    <div class="container p-0">
+        <a class="navbar-brand" href="#"><img src="Assets/logo.jpg" alt=""></a>
+        <button
+            class="navbar-toggler d-md-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html" aria-current="page"
+                        >Home
+                        <span class="visually-hidden">(current)</span></a
+                    >
+                </li>
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="dropdownId"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        >Courses</a
+                    >
+                    <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownId"
+                    >
+                        <a class="dropdown-item" href="Diploma.html"
+                            >Diploma</a
+                        >
+                        <a class="dropdown-item" href="Mba.html"
+                                    >MBA (Master of Business Administration)</a
+                                >
+                        <a class="dropdown-item" href="Btech.html"
+                            >B.Tech (Bachelor of Technology)</a
+                        >
+                        <a class="dropdown-item" href="M.tech.html"
+                            >M.Tech (Master of Technology)</a
+                        >
+                    </div>
+                </li>
+                </li><li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact</a>
+                </li>
+            </li>
+        </div>
+    </div>
+</nav>
+    <section class="container-fluid p-5">
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <div class="Apply" >
+                        <h3>Welcome to CIST College Admissions</h3>
+                        <p>At CIST College, we are dedicated to shaping the next generation of innovators and leaders in the fields of information sciences and technology. Our comprehensive programs, expert faculty, and state-of-the-art facilities provide the perfect environment for your academic and professional growt</p></div>
+                </div>
+                <div class="col-12 col-md-6 comment">
+                    <form action="" onsubmit="return Apply()">
+                        <div class="container">
+                            <h4>CIST College Admissions</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="" class="form-label">Full name</label>
+                                    <input type="text" class="form-control" id="Fullname" name="" value=""/>
+                                    <span class="text-danger" id="emptyname"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="" class="form-label">Email Id</label>
+                                    <input type="email" class="form-control" id="emailid" value=""/>
+                                    <span class="text-danger" id="emptyemail"></span>
+                                </div>
+                            </div> <br>
+                            <div class="row justify-content-center"> 
+                                <div class="col-md-6">
+                                    <label for="" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="number" value=""/>
+                                    <span class="text-danger" id="emptynumber"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="" class="form-label">*State</label>
+                                    <input type="text" class="form-control" id="State" value=""/>
+                                    <span class="text-danger" id="emptystate"></span>
+                                </div>
+                            </div>
+                            <div> <br>
+                            <div class="row justify-content-center">
+                                <div class="col-6">
+                                    <label for="" class="form-label">*city</label>
+                                    <input type="text" class="form-control" id="city" value="" />
+                                    <span class="text-danger" id="emptycity"></span>
+                                </div>
+                                <div class="col-6">
+                                    <label for="" class="form-label">Pin Code</label>
+                                    <input type="text" class="form-control" id="address" value="" 
+                                    placeholder=""/>
+                                    <span class="text-danger" id="emptyaddress"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-6">
+                                    <br>
+                                    <label for="" class="form-label">Course</label>
+                                    <input type="text" class="form-control" id="Course" value=""/>
+                                    <span class="text-danger" id="emptycourse"></span>
+                                </div>
+                                <div class="col-6">
+                                    <br>
+                                    <label for="" class="form-label">Branch</label>
+                                    <input type="text" class="form-control" id="Branch" value=""/>
+                                    <span class="text-danger" id="emptybranch"></span>
+                                </div>
+                            </div>  <br>
+                            Click the button below to start your application and take the first step towards a bright future with CIST College.
+                        </div> <br>
+                        <button class="px-3">Apply Now</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <section class="container-fluid Why_choose p-5">
+            <div class="row">
+                <div class="col-6">
+                    <img src="Assets/diploma2.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6 bg-body-secondary p-5">
+                    <h3>Why Choose CIST College?</h3>
+                    <h5>Innovative Programs:</h5>
+                    <p>We offer a variety of undergraduate and graduate programs tailored to meet the demands of the ever-evolving tech industry.</p>
+                    <h5>Expert Faculty:</h5>
+                    <p>Learn from industry leaders and experienced professionals who bring real-world knowledge into the classroom.</p>
+                    <h5>Cutting-Edge Facilities:</h5>
+                    <p>Gain hands-on experience with the latest technology in our advanced labs and research centers.</p>
+                    <h5>Career Opportunities: </h5>
+                    <p>Our strong industry connections and dedicated career services ensure you’re well-prepared for your future career.</p>
+                </div>
+            </div>
+    </section>
+    <footer class="container-fluid p-5 footer bg-body-secondary">
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <h3>Contact</h3>
+                Address<br>
+                Madhavapatnam, <br> Kakinada,<br> Andhra Pradesh 533005 <br>
+                <i class="bi bi-envelope-fill"></i>Email</h3>
+                <p>https://www.chaitanya.org.in</p>
+                <i class="bi bi-telephone-fill"></i>Phone number
+                <p>+91 9989314488 <br>+91 9160445796</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <h3>Courses</h3>
+                <a href="Diploma.html">Diploma</a><br>
+                <a href="Mba.html">Mba</a> <br>
+                <a href="Btech.html">B.tech</a><br>
+                <a href="M.tech.html">M.tech</a>
+            </div> 
+            <div class="col-6 col-md-3">
+                <h3>Stay Connected</h3>
+                <div class="icon">
+                    <i class="bi bi-facebook mx-2"></i><i class="bi bi-instagram mx-2"></i><i class="bi bi-twitter-x mx-2"></i>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                Our recruiters <br>
+                frequently asked questions
+            </div>
+        </div>
+        <br> <br>
+            <strong><span class="text-primary">Cist </span></strong> <h6>© 2024 Ayyappa. All Rights Reserved.</h6>
+    </footer>
+    <p class="text-bg-success text-center">© 2024 CIST All Rights Reserved. designed by Ayyappa </p>
+        <script src="Cist.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
